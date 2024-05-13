@@ -39,6 +39,12 @@ function App() {
           rounded-full text-white shadow-8xl"
             style={{ backgroundColor: "orange" }}
           >orange</button>
+          <button
+            onClick={() => setColor("pink")}
+            className="outline-none px-4 py-2
+          rounded-full text-white shadow-8xl"
+            style={{ backgroundColor: "pink" }}
+          >pink</button>
 
 
         </div>
